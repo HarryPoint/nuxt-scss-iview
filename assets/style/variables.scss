@@ -1,0 +1,10 @@
+@mixin ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
